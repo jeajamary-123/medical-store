@@ -1,0 +1,6 @@
+<h1>Search Results for "{{ query }}"</h1>
+<ul>
+    {% for medicine in medicines %}
+        <li>{{ medicine.Medname }}</li>
+    {% endfor %}
+</ul>
